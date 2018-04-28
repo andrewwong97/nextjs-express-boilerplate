@@ -1,0 +1,69 @@
+@import 'base/_colors';
+@import 'base/_buttons';
+@import 'pages/index';
+
+html, body {
+    font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+    color: $brand-dark;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+h3, h4 {
+    font-weight: 200;
+}
+
+.App {
+    padding: 10px 50px;
+}
+
+.Nav-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Nav {
+    display: flex;
+    margin-left: auto;
+    flex-flow: row;
+    align-items: center;
+
+    li {
+        list-style-type: none;
+        margin: 10px;
+
+        a {
+            text-decoration: none;
+            color: $brand-gray;
+        }
+    }
+}
+
+.logo:hover {
+    cursor: pointer;
+
+}
+
+.logo h1 {
+    color: $brand-blue;
+    font-size: 40px;
+}
+
+.logo-yellow {
+    color: $brand-yellow;
+}
+
+.span-blue {
+    color: $brand-blue;
+}
+
+.span-gray {
+    color: $brand-gray;
+}
+
+.hide {
+    display: none !important;
+}

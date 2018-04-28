@@ -1,0 +1,27 @@
+.btn {
+    min-width: 50px;
+    color: #fff;
+    background-color: $brand-blue;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 300;
+    transition: box-shadow 250ms ease-in-out, color 250ms ease-in-out;
+    text-decoration: none;
+    outline: none;
+    margin: 5px;
+
+    &:hover {
+        color: #fff;
+        background-color: #273c75;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        outline: none;
+        cursor: pointer;
+    }
+
+    &:focus, &:visited, &:active {
+        outline: none;
+    }
+}
